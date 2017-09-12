@@ -91,7 +91,7 @@ li.task:first-child {
 .task a {
     color: #FFF;
     display: block;
-    font: 15px/22px verdana;
+    font-size: 35px;
     font-weight: bold;
     text-decoration: none;
     position: relative;
@@ -175,16 +175,7 @@ li.task:first-child {
 .taskContentWrapper {
     display: none
 }
-.task a {
-    color: #FFF;
-    display: block;
-    font: 15px/22px verdana;
-    font-weight: bold;
-    text-decoration: none;
-    position: relative;
-    padding-top: 50px;
-    transition: all 500ms linear 0s
-}
+
 .task div.taskSecondstate {
     color: #FFF;
     display: block;
@@ -266,22 +257,12 @@ li.task:first-child {
 }
 #map {
     display: inline-block;
-    height: 50vh;
-    width: 50%;
+    height: 50vw;
+    width: 100%;
 }
 #info {
     display: inline;
-    float: right;
-    height: 50vh;
+    float: left;
     width: 50%;
 }
-#uber {
-    display: inline-block;
 
-    width: 50%;
-}
-#lyft {
-    display: inline;
-    float: right;
-    width: 50%;
-}
